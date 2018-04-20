@@ -2,8 +2,6 @@
 
 source $(dirname "$0")/functions.sh
 
-banner
-
 loadEnvFile
 
 echo "Updating Shopware install, please wait..."

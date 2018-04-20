@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b309d1536a343a403bcdc4ba4ce76653",
+    "content-hash": "44333211f13533296319e4b953f89333",
     "packages": [
         {
             "name": "bcremer/line-reader",
@@ -1797,6 +1797,36 @@
             "time": "2017-05-11T14:25:49+00:00"
         },
         {
+            "name": "shopware-blog/shopware-environment-variables",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shopware-blog/shopware-environment-variables.git",
+                "reference": "dab020f854f7fbc53e2c96c5f26c530c0225ebe9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shopware-blog/shopware-environment-variables/zipball/dab020f854f7fbc53e2c96c5f26c530c0225ebe9",
+                "reference": "dab020f854f7fbc53e2c96c5f26c530c0225ebe9",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "installer-name": "ShopwareEnvironmentVariables"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Eiling",
+                    "email": "teiling88@gmail.com"
+                }
+            ],
+            "time": "2018-04-20T21:22:13+00:00"
+        },
+        {
             "name": "shopware/shopware",
             "version": "v5.4.2",
             "source": {
@@ -3401,15 +3431,14 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "shopware-blog/shopware-environment-variables": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^5.6.4||^7.0"
+        "php": "^7.0"
     },
-    "platform-dev": [],
-    "platform-overrides": {
-        "php": "5.6.4"
-    }
+    "platform-dev": []
 }
