@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 source $(dirname "$0")/functions.sh
-banner
 
 if envFileDoesNotExists
    then
