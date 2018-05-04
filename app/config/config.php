@@ -10,7 +10,8 @@ $db['scheme'] = 'mysql';
 $projectDir = dirname(__DIR__, 2) . DIRECTORY_SEPARATOR;
 
 return array_replace_recursive(
-    $this->loadConfig($this->AppPath() . 'Configs/Default.php'), [
+    $this->loadConfig($this->AppPath() . 'Configs/Default.php'),
+    [
 
         'db' => [
             'username' => $db['user'],
@@ -41,8 +42,18 @@ return array_replace_recursive(
         ],
 
         'cdn' => [
-            'liveMigration' => true,
+            'backend' => 'sftp',
             'adapters' => [
+                'sftp' => [
+                    'type' => 'sftp',
+                    'mediaUrl' => 'https://media.cluster.eilomat.de/' . getenv('SHOPWARE_ENV'),
+                    'host' => 'cluster',
+                    'port' => 22,
+                    'username' => 'ubuntu',
+                    'privateKey' => '/home/ubuntu/.ssh/id_rsa',
+                    'root' => '/var/www/cluster.eilomat.de/media/' . getenv('SHOPWARE_ENV'),
+                    'timeout' => 10,
+                ],
                 'local' => [
                     'path' => $projectDir,
                 ],
@@ -68,6 +79,7 @@ return array_replace_recursive(
         ],
         'phpsettings' => [
             'display_errors' => 1,
+            'error_reporting' => E_ALL,
         ],
     ]
 );
