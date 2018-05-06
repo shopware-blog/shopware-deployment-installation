@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.4/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element scope="shop" required="false" type="color">
+            <name>backgroundColor</name>
+            <label>Background Color</label>
+        </element>
+    </elements>
+</config>

@@ -81,5 +81,24 @@ return array_replace_recursive(
             'display_errors' => 1,
             'error_reporting' => E_ALL,
         ],
+        'custom' => [
+            'plugins' =>
+                [
+                    1 =>
+                        [
+                            'ShopwareBlogBackground' =>
+                                [
+                                    'backgroundColor' => '#00A3FA',
+                                ],
+                        ],
+                    2 =>
+                        [
+                            'ShopwareBlogBackground' =>
+                                [
+                                    'backgroundColor' => '#FF0000',
+                                ],
+                        ],
+                ],
+        ],
     ]
 );
