@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d72db806e581c9f63ffd1ad512d66642",
+    "content-hash": "bbc7ec084996ae1414454b63c0b8e41f",
     "packages": [
         {
             "name": "bcremer/line-reader",
@@ -1932,16 +1932,16 @@
         },
         {
             "name": "shopware-blog/shopware-environment-variables",
-            "version": "0.1.0",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware-blog/shopware-environment-variables.git",
-                "reference": "0ce2a06d0c2432223b65a12ac912cf884b912f3a"
+                "reference": "886ee1d69db1104344d33a4b1c041bcc1f2ddd87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware-blog/shopware-environment-variables/zipball/0ce2a06d0c2432223b65a12ac912cf884b912f3a",
-                "reference": "0ce2a06d0c2432223b65a12ac912cf884b912f3a",
+                "url": "https://api.github.com/repos/shopware-blog/shopware-environment-variables/zipball/886ee1d69db1104344d33a4b1c041bcc1f2ddd87",
+                "reference": "886ee1d69db1104344d33a4b1c041bcc1f2ddd87",
                 "shasum": ""
             },
             "type": "shopware-plugin",
@@ -1959,20 +1959,20 @@
                 }
             ],
             "description": "a small shopware plugin to use env variables",
-            "time": "2018-05-04T06:21:44+00:00"
+            "time": "2018-05-08T14:40:57+00:00"
         },
         {
             "name": "shopware/shopware",
-            "version": "v5.4.2",
+            "version": "v5.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/shopware.git",
-                "reference": "b16d584b54d8edd2724bfedf5a6cc86580afe3c9"
+                "reference": "d7481242e8198853a5285ee67e288dd33485e697"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/shopware/zipball/b16d584b54d8edd2724bfedf5a6cc86580afe3c9",
-                "reference": "b16d584b54d8edd2724bfedf5a6cc86580afe3c9",
+                "url": "https://api.github.com/repos/shopware/shopware/zipball/d7481242e8198853a5285ee67e288dd33485e697",
+                "reference": "d7481242e8198853a5285ee67e288dd33485e697",
                 "shasum": ""
             },
             "require": {
@@ -2079,7 +2079,7 @@
                 "shop",
                 "shopware"
             ],
-            "time": "2018-04-03T06:56:42+00:00"
+            "time": "2018-05-04T13:22:55+00:00"
         },
         {
             "name": "shopwarelabs/swag-media-sftp",
