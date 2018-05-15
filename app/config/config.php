@@ -88,7 +88,7 @@ return array_replace_recursive(
                         [
                             'ShopwareBlogBackground' =>
                                 [
-                                    'backgroundColor' => '#00A3FA',
+                                    'backgroundColor' => '#CCCCCC',
                                 ],
                         ],
                     2 =>
